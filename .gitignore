@@ -1,0 +1,58 @@
+# ========================
+# Node.js / Next.js Project
+# ========================
+
+# Node modules (never commit these!)
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional npm cache directory
+.npm/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific stuff
+.DS_Store
+Thumbs.db
+
+# Editor-specific stuff
+.vscode/
+.idea/
+*.swp
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Production build output
+dist/
+build/
+
+# Local runtime data
+.pnpm-store/
+.cache/
+turbo/
+.vercel/
+.eslintcache
+*.tsbuildinfo
+
+# Mac/Linux Trash
+.Trash-*
+
+# Optional: Ignore exported Excel files
+*.xlsx
+*.xls
